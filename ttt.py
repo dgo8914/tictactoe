@@ -81,7 +81,7 @@ while True:
                 player = 2
                 break
             else:
-                print('Invalid input, please try again')
+                print('wrong key')
                 continue
         else:
             p2_input = input('player two')
@@ -90,7 +90,7 @@ while True:
                 player = 1
                 break
             else:
-                print('Invalid input, please try again')
+                print('wrong key ')
                 continue
     total_moves += 1
     print()
